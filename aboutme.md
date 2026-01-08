@@ -1,7 +1,8 @@
 - 👋 Hi, I’m @belayfitsum
 - 👀 I’m interested in Networking, cybersecurity, virtualizatons and right now docker containers
 - 🌱 I’m currently learning docker container and cybersecurity
-- 💞️ I’m looking to collaborate on ...
+- 💞️ I’m looking to collaborate on ..
+	I am now learning AI and Generative AI.
 - 📫 How to reach me ...
 
 <!---
