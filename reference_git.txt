@@ -1,4 +1,4 @@
-reference manual for git
+reference manual for git<<<follow this when working with repos
 1. clone the repository from GitHub to local computer/git clone
 2. Create a new file or edit thr README file if needed/ 
 	echo "updating my files and creating new" >> start.txt 
