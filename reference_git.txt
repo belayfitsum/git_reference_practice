@@ -1,8 +1,0 @@
-reference manual for git<<<follow this when working with repos
-1. clone the repository from GitHub to local computer/git clone
-2. Create a new file or edit thr README file if needed/ 
-	echo "updating my files and creating new" >> start.txt 
-3. git add start.txt
-4. git status // showing new file to be committed
-5. git commit -m "adding start.txt file"  ****staging/adding to local repo/not remote 
-6.  git push origin main
