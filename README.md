@@ -6,6 +6,24 @@ Basic Git usage demonstration project.
 
 Watch the full tutorial: [Git Basics Demo](https://www.youtube.com/watch?v=2FVuRnv7g-0&t=82s)
 
+## Git Workflow
+
+```
+Working Directory  →  Staging Area  →  Local Repository  →  Remote Repository
+     (edit)           (git add)        (git commit)         (git push)
+                          ↓                  ↓                    ↓
+                       [Index]          [.git folder]         [GitHub]
+```
+
+## Branching Flow
+
+```
+main    ──●──────●──────●──────●────
+           \              /
+  feature   ●────●────●──
+           (branch)  (merge)
+```
+
 ## Commands Covered
 
 ```bash
@@ -40,12 +58,27 @@ git push origin <branch>
 git pull origin <branch>
 ```
 
-## Quick Start
+## Common Scenarios
 
 ```bash
+# Start new project
 git init
 git add .
 git commit -m "Initial commit"
-git remote add origin <your-repo-url>
-git push -u origin main
+
+# Clone existing project
+git clone <repo-url>
+
+# Create feature branch
+git checkout -b feature-name
+# ... make changes ...
+git add .
+git commit -m "Add feature"
+git checkout main
+git merge feature-name
+
+# Undo changes
+git restore <file>          # Discard working changes
+git reset HEAD <file>       # Unstage file
+git revert <commit-hash>    # Undo commit
 ```
